@@ -4,69 +4,69 @@
     "Product Name": "Black T-Shirt",
     "Size": "S",
     "Price": "799",
-    "Image": "jb\\img\\TS001.jpg"
+    "Image": "/jb/img/img/TS001.jpg"
   },
   {
     "Product ID": "TS002",
     "Product Name": "Blue T-Shirt",
     "Size": "L",
     "Price": "799",
-    "Image": "jb\\img\\TS002.jpg"
+    "Image": "/jb/img/img/TS002.jpg"
   },
   {
     "Product ID": "TS003",
     "Product Name": "white T-Shirt",
     "Size": "M",
     "Price": "799",
-    "Image": "jb\\img\\TS003.jpg"
+    "Image": "/jb/img/img/TS003.jpg"
   },
   {
     "Product ID": "TS004",
     "Product Name": "kurti",
     "Size": "XL",
     "Price": "799",
-    "Image": "jb\\img\\TS004.jpg"
+    "Image": "/jb/img/img/TS004.jpg"
   },
   {
     "Product ID": "TS005",
     "Product Name": "Saree",
     "Size": "XXL",
     "Price": "799",
-    "Image": "jb\\img\\TS005.jpg"
+    "Image": "/jb/img/img/TS005.jpg"
   },
   {
     "Product ID": "TS006",
     "Product Name": "Jeans",
     "Size": "S",
     "Price": "799",
-    "Image": "jb\\img\\TS006.jpg"
+    "Image": "/jb/img/img/TS006.jpg"
   },
   {
     "Product ID": "TS007",
     "Product Name": "rwagt",
     "Size": "L",
     "Price": "799",
-    "Image": "jb\\img\\TS007.jpg"
+    "Image": "/jb/img/img/TS007.jpg"
   },
   {
     "Product ID": "TS008",
     "Product Name": "5y",
     "Size": "M",
     "Price": "799",
-    "Image": "jb\\img\\TS008.jpg"
+    "Image": "/jb/img/img/TS008.jpg"
   },
   {
     "Product ID": "TS009",
     "Product Name": "wey",
     "Size": "XL",
     "Price": "799",
-    "Image": "jb\\img\\TS009.jpg"
+    "Image": "/jb/img/img/TS009.jpg"
   },
   {
     "Product ID": "TS010",
     "Product Name": "wt",
     "Size": "XXL",
     "Price": "799",
-    "Image": "jb\\img\\TS0010.png"
+    "Image": "/jb/img/img/TS0010.png"
   }
 ]
