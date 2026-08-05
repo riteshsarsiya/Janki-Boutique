@@ -7,21 +7,21 @@ fetch("products.json")
     const product = products.find(item => item["Product ID"] === id);
 
     if (product) {
-      document.querySelector("#product-name").textContent =
-        "Name : " + product["Product Name"];
+  document.querySelector("#product-name").textContent =
+    "Name : " + product["Product Name"];
 
-      document.querySelector("#product-size").textContent =
-        "Size : " + product["Size"];
+  document.querySelector("#product-size").textContent =
+    "Size : " + product["Size"];
 
-      document.querySelector("#product-price").textContent =
-        "Price : ₹" + product["Price"];
+  document.querySelector("#product-price").textContent =
+    "Price : ₹" + product["Price"];
 
-      document.querySelector(".cloth-png").src =
-        product["Image"];
+  document.querySelector(".cloth-png").src =
+    product["Image"].replace("/jb/img/", "/img/");
 
-    } else {
-      document.body.innerHTML = "<h1>Product Not Found</h1>";
-    }
+} else {
+  document.body.innerHTML = "<h1>Product Not Found</h1>";
+}
 
   })
   .catch(err => console.log(err));
