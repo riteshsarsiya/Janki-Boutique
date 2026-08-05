@@ -1,29 +1,27 @@
-const products = {
-    TS001: {
-        name: "Black T-Shirt",
-        size: "XL",
-        price: "₹799",
-        image: "/jb/img/download.png"
-    }, 
-
-    TS002: {
-        name: "White T-Shirt",
-        size: "L",
-        price: "₹699",
-        image: "/jb/img/download1.png"
-    }
-}
-// QR se ID milegi (example: ?id=TS001)
 const id = new URLSearchParams(window.location.search).get("id");
 
-const product = products[id];
+fetch("products.json")
+  .then(response => response.json())
+  .then(products => {
 
-if(product) {
+    const product = products.find(item => item["Product ID"] === id);
 
-    document.querySelector("#product-name").textContent = "Name : " + product.name;
-    document.querySelector("#product-size").textContent = "Size : " + product.size;
-    document.querySelector("#product-price").textContent = "Price : " + product.price;
-    document.querySelector(".cloth-png").src = product.image;
-} else {
-    document.querySelector("body").innerHTML = "Product Not Found";
-}
+    if (product) {
+      document.querySelector("#product-name").textContent =
+        "Name : " + product["Product Name"];
+
+      document.querySelector("#product-size").textContent =
+        "Size : " + product["Size"];
+
+      document.querySelector("#product-price").textContent =
+        "Price : ₹" + product["Price"];
+
+      document.querySelector(".cloth-png").src =
+        product["Image"];
+
+    } else {
+      document.body.innerHTML = "<h1>Product Not Found</h1>";
+    }
+
+  })
+  .catch(err => console.log(err));
