@@ -3,14 +3,14 @@ const products = {
         name: "Black T-Shirt",
         size: "XL",
         price: "₹799",
-        image: "img/download.png"
+        image: "/jb/img/download.png"
     }, 
 
     TS002: {
         name: "White T-Shirt",
         size: "L",
         price: "₹699",
-        image: "img/download1.png"
+        image: "/jb/img/download1.png"
     }
 }
 // QR se ID milegi (example: ?id=TS001)
