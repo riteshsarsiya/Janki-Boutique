@@ -3,7 +3,7 @@ const products = {
         name: "Black T-Shirt",
         size: "XL",
         price: "₹799",
-        image: "img/download.png"
+        image: "img/downlgit statusoad.png"
     }, 
 
     TS002: {
