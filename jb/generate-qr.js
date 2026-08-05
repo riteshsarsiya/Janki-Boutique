@@ -16,7 +16,7 @@ async function generateQR() {
         let id = product["Product ID"];
 
         // QR ke andar product page ka link jayega
-        let qrData = `https://janki-boutique.vercel.app/product.html?id=${id}`;
+        let qrData = `https://janki-boutique.vercel.app/index.html?id=${id}`;
 
         await QRCode.toFile(
             `qr/${id}.png`,
